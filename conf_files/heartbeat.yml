@@ -128,7 +128,7 @@ setup.kibana:
 
 # ------------------------------- Kafka Output ---------------------------------
 output.kafka:
-  hosts: ["b-1.monitotingmsk-notls.uweh3e.c17.kafka.us-east-1.amazonaws.com:9092","b-2.monitotingmsk-notls.uweh3e.c17.kafka.us-east-1.amazonaws.com:9092"]
+  hosts: ["b-1.monitotingmsk-notls.uweh3e.c17.kafka.us-east-1.amazonaws.com:9092","b-2.monitotingmsk-notls.uweh3e.c17.kafka.us-east-1.amazonaws.com"]
   topic: "heartbeat"
   client_id: heartbeat
   required_acks: 1
